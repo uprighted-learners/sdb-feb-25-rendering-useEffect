@@ -1,0 +1,15 @@
+ form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+    & > input,button {
+        padding: 1em;
+    }
+
+    & > button {
+        width: 170px
+    }
+ }
